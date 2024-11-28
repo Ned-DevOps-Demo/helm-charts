@@ -7,14 +7,20 @@ worker:
   image:
     name: worker
     repository: "192.168.157.4:32380"
-    project: sjm_demo
-    tag: sprint_0001-fddeac8
+    project: demo
+    tag: sprint_0001-2e5278a
 result:
   image:
     name: result
     repository: "192.168.157.4:32380"
-    project: sjm_demo
-    tag: sprint_0001-a021db4
+    project: demo
+    tag: sprint_0001-677f089
+vote:
+  image:
+    name: vote
+    repository: "192.168.157.4:32380"
+    project: demo
+    tag: sprint_0001-2f9e17b
 service:
   type: ClusterIP
   port: 80
