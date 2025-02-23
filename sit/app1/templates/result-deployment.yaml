@@ -22,5 +22,8 @@ spec:
           name: result
         resources:
           requests:
+            limits:
+              cpu: '1'
+              memory: 1Gi
             memory: "128Mi"
             cpu: "300m"

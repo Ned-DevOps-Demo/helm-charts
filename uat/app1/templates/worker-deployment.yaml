@@ -19,6 +19,9 @@ spec:
       #- image: dockersamples/examplevotingapp_worker
         name: worker
         resources:
+          limits:
+            cpu: '1'
+            memory: 1Gi
           requests:
             memory: "128Mi"
             cpu: "300m"
